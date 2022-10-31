@@ -1,0 +1,48 @@
+body {
+	background-color: dimgrey;
+	text-align: center;
+}
+
+img {
+	background-color: pink;
+	width: 30vw;
+	border: solid black 10px;
+	padding: 40px;
+	display: block;
+  	width: 50%;
+  	height: auto;
+  	margin-left: auto;
+  	margin-right: auto; 
+  }
+
+
+a {
+	font-size: 40px;
+	padding: 4vw;
+	margin: 4vw;
+	text-transform: uppercase;
+	color: black
+	-webkit-transition: color 3s;
+	transition: color 3s;
+	text-decoration: none;
+}
+
+a:hover {
+	color: ivory;
+}
+p {
+	font-size: 25px;
+	padding: 3vw;
+	text-transform: capitalize;
+	margin: 3vw;
+	color: ivory;
+	border-radius: 8px;
+
+}
+
+
+
+footer {
+	font-size: 20px;
+	color: ivory;
+}
