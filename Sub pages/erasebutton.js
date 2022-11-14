@@ -1,5 +1,5 @@
 function setup() {
-	createCanvas(windowWidth, 100);
+	createCanvas(windowWidth, windowHeight);
 	background(0);
 	
 	text_input = createInput();
