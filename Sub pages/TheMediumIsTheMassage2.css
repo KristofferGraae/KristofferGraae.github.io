@@ -1,0 +1,85 @@
+body {
+    background-color: 313131;
+    }
+
+#message {
+    text-transform: uppercase;
+    font: 29px Arial, Helvetica, sans-serif;;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: .1.5rem;
+    word-spacing: -0.5rem;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+#massage {
+    text-transform: uppercase;
+    font: 29px Arial, Helvetica, sans-serif;;
+    letter-spacing: .4rem;
+    word-spacing: .5rem;
+    position: relative;
+    top: -126.8px;
+    left: 138.6px;
+    color: A1A1A1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#clearBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    float: right;
+  }
+  
+  #clearBtn:hover {
+    background-color: blue}
+  
+  #clearBtn:active {
+    background-color: blue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+#textBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    float: left;  
+}
+
+#textBtn:hover {
+background-color: red}
+
+#textBtn:active {
+background-color: red;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+
