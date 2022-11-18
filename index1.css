@@ -30,18 +30,18 @@ img {
 	text-align: center;
  }
 
-a {
+li {
 	font-size: 25px;
-	padding: 4vw;
-	margin: 4vw;
+	padding: 1vw;
+	margin: 2vw;
 	text-transform: capitalize;
 	color: ivory
 	-webkit-transition: color 2s;
 	transition: color 2s;
 	text-decoration: none;
-
 }
-a:hover {
+
+li:hover {
 	color: ivory;
 	text-decoration: none;
 }
@@ -50,5 +50,4 @@ footer {
 	font-size: 20px;
 	color: ivory;
 	text-align: center;
-
 }
