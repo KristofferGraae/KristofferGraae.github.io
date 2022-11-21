@@ -29,7 +29,7 @@ img {
 	text-align: center;
  }
 
-a{
+a {
 	font-size: 25px;
 	padding: 1vw;
 	margin: 2vw;
@@ -38,6 +38,10 @@ a{
 	-webkit-transition: color 2s;
 	transition: color 2s;
 	text-decoration: none;
+}
+
+a:link {
+	color:black;
 }
 
 a:hover {
