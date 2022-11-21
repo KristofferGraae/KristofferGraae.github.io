@@ -40,7 +40,7 @@ body {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: blue;
+    background-color: 494949;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
@@ -48,10 +48,11 @@ body {
   }
   
   #clearBtn:hover {
-    background-color: blue}
+    background-color: 494949;
+  }
   
   #clearBtn:active {
-    background-color: blue;
+    background-color: 494949;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
@@ -66,7 +67,7 @@ body {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: red;
+    background-color: 494949;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
@@ -74,12 +75,13 @@ body {
 }
 
 #textBtn:hover {
-background-color: red}
+background-color: 494949;
+}
 
 #textBtn:active {
-background-color: red;
+background-color: 494949;
 box-shadow: 0 5px #666;
-transform: translateY(4px);
+transform: translateY(5px);
 }
 
 
