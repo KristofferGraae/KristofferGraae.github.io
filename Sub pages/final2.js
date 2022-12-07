@@ -15,7 +15,7 @@ function preload() {
 }
 
 function setup() {
-	createCanvas(800, 500);
+	createCanvas(windowWidth, 500);
 	mario = new Mario();
 	
 }
