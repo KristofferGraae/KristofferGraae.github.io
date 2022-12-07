@@ -5,13 +5,12 @@ let rocketImg;
 let rockets = [];
 let lastspawntime = 0
 let timebetweenspawns = 3000
-let jumpSound;
+
 
 function preload() {
-	marioImg = loadImage('mario.png')
-	rocketImg = loadImage('rocket.png')
-	backgroundImg = loadImage('mariobackground.png')
-	jumpSound = loadSound('mario-jump-sound-effect_1.mp3')
+	marioImg = loadImage('mario.png');
+	rocketImg = loadImage('rocket.png');
+	backgroundImg = loadImage('mariobackground.png');
 		
 }
 
@@ -23,9 +22,6 @@ function setup() {
 function keyPressed() {
 	if (key == ' ') {
 		mario.jump();
-	if (key == ' ') {
-		jumpSound.play();
-	}
 	}
 }
 
