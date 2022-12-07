@@ -1,4 +1,4 @@
-class Rocket {
+class Plant {
 	constructor() {
 		this.size = 60;
 		this.x = width;
@@ -11,6 +11,6 @@ class Rocket {
 	
 	show() {
 		
-		image(rocketImg, this.x, this.y, this.size, this.size);
+		image(plantImg, this.x, this.y, this.size, this.size);
 	}
 }

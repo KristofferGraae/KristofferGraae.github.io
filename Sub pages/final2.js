@@ -1,15 +1,15 @@
 let mario;
 let marioImg;
 let backgroundImg;
-let rocketImg;
-let rockets = [];
+let plantImg;
+let plants = [];
 let lastspawntime = 0
 let timebetweenspawns = 3000
 
 
 function preload() {
 	marioImg = loadImage('mario.png');
-	rocketImg = loadImage('rocket.png');
+	plantImg = loadImage('plant.png');
 	backgroundImg = loadImage('mariobackground.png');
 		
 }
@@ -28,7 +28,7 @@ function keyPressed() {
 function draw() {
 	if (lastspawntime + timebetweenspawns < millis()) {
 		lastspawntime = millis()
-		rockets.push(new Rocket())
+		plants.push(new Plant())
 	}
 	
 	
@@ -37,9 +37,9 @@ function draw() {
 	mario.show();
 	mario.move();
 		
-		for (let Rocket of rockets) {
-		Rocket.move();
-		Rocket.show();
+		for (let Plant of plants) {
+		Plant.move();
+		Plant.show();
 			
 	}
 }
