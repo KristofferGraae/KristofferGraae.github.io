@@ -1,5 +1,6 @@
 html,
 body {
+    background-color: lightgreen;
     display: block;
   padding: 5px;
   margin-left: auto;
