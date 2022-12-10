@@ -16,16 +16,43 @@ button {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #04AA6D;
+  background-color: red;
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+  border-radius: 50%;
+  box-shadow: 0 6px darkgrey;
+  position: relative;
+  left: 380px;
+  top: 530px;
 }
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: red}
 
 .button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  background-color: red;
+  box-shadow: 0 6px darkgrey;
+  transform: translateY(4px);
+}
+
+#justAbtn {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 6px darkgrey;
+  position: relative;
+  left: 400px;
+  top: 480px;
+}
+
+.justAbtn:hover {background-color: red}
+
+.justAbtn:active {
+  background-color: red;
+  box-shadow: 0 6px darkgrey;
   transform: translateY(4px);
 }
 
@@ -43,7 +70,7 @@ p {
     font-size: 18px;
     color: black;
     position: relative;
-    left: 210px;
+    left: 220px;
     top: 280px;
     animation: animate 1.5s linear infinite;
 }

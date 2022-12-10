@@ -35,17 +35,6 @@ function draw() {
 	fill(0);
 	rect(191, 445, 80, 30, 5);
 	
-	//button
-	
-	stroke(0);
-	strokeWeight(0.5);
-	fill('red');
-	circle(410, 490, 40);
-	
-	stroke(0);
-	strokeWeight(0.5);
-	fill('red');
-	circle(480, 450, 40);
-	
 	
 }
+
