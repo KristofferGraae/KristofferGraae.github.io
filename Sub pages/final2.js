@@ -7,7 +7,7 @@ let lastspawntime = 0
 let timebetweenspawns = 3000
 let x1 = 0;
 let x2;
-let scrollSpeed = 6;
+let scrollSpeed = 7;
 
 
 function preload() {

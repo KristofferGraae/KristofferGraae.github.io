@@ -6,7 +6,7 @@ class Plant {
 	}
 	
 	move() {
-		this.x -= 6 ;
+		this.x -= 7;
 	}
 	
 	show() {
