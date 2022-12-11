@@ -9,7 +9,7 @@ class Mario {
 	
 	jump() {
 		if (this.y == height - this.size) {
-		this.vy = -30;
+		this.vy = -33;
 		}
 	}
 	hits(Plant) {
