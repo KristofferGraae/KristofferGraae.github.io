@@ -12,7 +12,9 @@ class Mario {
 		this.vy = -30;
 		}
 	}
-	
+	hits(Plant) {
+		return collideRectRect(this.x, this.y, this.size, this.size, Plant.x, Plant.y, Plant.size, Plant.size);
+	}
 	
 	move() {
 		this.y += this.vy;

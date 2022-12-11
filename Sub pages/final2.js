@@ -53,6 +53,10 @@ function draw() {
 		for (let Plant of plants) {
 		Plant.move();
 		Plant.show();
+        if (mario.hits(Plant)) {
+            console.log('game over');
+            noLoop();
+        }
 			
 	}
 }
