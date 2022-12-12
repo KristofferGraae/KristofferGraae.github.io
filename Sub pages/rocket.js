@@ -6,7 +6,7 @@ class Plant {
 	}
 	
 	move() {
-		this.x -= 7;
+		this.x -= 7; //speed
 	}
 	
 	show() {

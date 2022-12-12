@@ -30,7 +30,7 @@ function keyPressed() {
 }
 
 function draw() {
-    image(backgroundImg, x1, 0, width, height);
+    image(backgroundImg, x1, 0, width, height); //draws to background img that change to make background move
   image(backgroundImg, x2, 0, width, height);
   
   x1 -= backgroundSpeed;
@@ -42,7 +42,7 @@ function draw() {
   if (x2 < -width){
     x2 = width;
   }
-	if (lastspawntime + timebetweenspawns < millis()) {
+	if (lastspawntime + timebetweenspawns < millis()) { // plant spawns every 3 seconds
 		lastspawntime = millis()
 		plants.push(new Plant())
 	}
