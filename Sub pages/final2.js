@@ -7,7 +7,7 @@ let lastspawntime = 0
 let timebetweenspawns = 3000
 let x1 = 0;
 let x2;
-let scrollSpeed = 7;
+let backgroundSpeed = 7;
 
 
 function preload() {
@@ -33,8 +33,8 @@ function draw() {
     image(backgroundImg, x1, 0, width, height);
   image(backgroundImg, x2, 0, width, height);
   
-  x1 -= scrollSpeed;
-  x2 -= scrollSpeed;
+  x1 -= backgroundSpeed;
+  x2 -= backgroundSpeed;
   
   if (x1 < -width){
     x1 = width;
