@@ -12,7 +12,7 @@ let scrollSpeed = 7;
 
 function preload() {
 	marioImg = loadImage('mario.png');
-	plantImg = loadImage('plant.png');
+	plantImg = loadImage('plant1.png');
 	backgroundImg = loadImage('mariobackground.png');
 		
 }
@@ -54,7 +54,7 @@ function draw() {
 		Plant.move();
 		Plant.show();
         if (mario.hits(Plant)) {
-            console.log('game over');
+            console.log('You lost');
             noLoop();
         }
 			

@@ -1,8 +1,8 @@
 class Plant {
 	constructor() {
-		this.size = 60;
+		this.size = 90;
 		this.x = width;
-		this.y = height - 60;
+		this.y = height - 90;
 	}
 	
 	move() {
