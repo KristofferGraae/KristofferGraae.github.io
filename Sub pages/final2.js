@@ -30,7 +30,7 @@ function keyPressed() {
 }
 
 function draw() {
-    image(backgroundImg, x1, 0, width, height); //draws to background img that change to make background move
+    image(backgroundImg, x1, 0, width, height); //draws to background img that change to make background move link : https://stackoverflow.com/questions/46411729/running-background-in-p5
   image(backgroundImg, x2, 0, width, height);
   
   x1 -= backgroundSpeed;
